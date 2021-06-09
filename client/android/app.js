@@ -98,6 +98,7 @@ const consoleTransport = new winston.transports.Console();
 
 // Set up winston logging.
 const logger = winston.createLogger({
+  console.log('this is a test change for sparse-checkout');
   format: winston.format.combine(
     winston.format.colorize(),
     winston.format.simple()
